@@ -19,8 +19,8 @@ public abstract class Animal {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setName(String petName) {
+		name = petName;
 	}
 	public String getAge() {
 		return age;
