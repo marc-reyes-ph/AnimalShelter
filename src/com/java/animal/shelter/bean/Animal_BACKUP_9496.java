@@ -7,8 +7,11 @@ public abstract class Animal {
 	private String name;
 	private String age;
 	private String gender;
+<<<<<<< HEAD
 	private int numOfFeet;
 	private void makeSound();
+=======
+>>>>>>> 701b6837257f7fbab344105cdff80507bbcbf015
 	
 	public abstract String sound();
 	 
@@ -36,6 +39,7 @@ public abstract class Animal {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+<<<<<<< HEAD
 	
 	public int getNumOfFeet(){
 		return numOfFeet;
@@ -44,4 +48,7 @@ public abstract class Animal {
 	public void setNumOfFeet(int numOfFeet) {
 		this.numOfFeet = numOfFeet;
 	}
+=======
+
+>>>>>>> 701b6837257f7fbab344105cdff80507bbcbf015
 }

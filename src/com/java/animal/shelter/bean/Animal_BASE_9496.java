@@ -7,8 +7,7 @@ public abstract class Animal {
 	private String name;
 	private String age;
 	private String gender;
-	private int numOfFeet;
-	private void makeSound();
+	private String breed;
 	
 	public abstract String sound();
 	 
@@ -21,8 +20,8 @@ public abstract class Animal {
 	public String getName() {
 		return name;
 	}
-	public void setName(String petName) {
-		name = petName;
+	public void setName(String name) {
+		this.name = name;
 	}
 	public String getAge() {
 		return age;
@@ -36,12 +35,13 @@ public abstract class Animal {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	
-	public int getNumOfFeet(){
-		return numOfFeet;
+
+	public String getBreed() {
+		return breed;
 	}
-	
-	public void setNumOfFeet(int numOfFeet) {
-		this.numOfFeet = numOfFeet;
+
+	public void setBreed(String breed) {
+		this.breed = breed;
 	}
+
 }
